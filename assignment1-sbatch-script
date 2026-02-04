@@ -28,7 +28,7 @@ for N in 16 8 4 2 1; do
 
 	echo $N
 
-    perf stat -e cycles,instructions,cache-misses mpirun -np $N ./goodcodecopy.py
+    perf stat -e cycles,instructions,cache-misses mpirun -np $N ./goodcode.py
 
     perf stat -e cycles,instructions,cache-misses mpirun -np $N ./badcode.py
 
