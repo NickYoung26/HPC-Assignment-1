@@ -1,5 +1,7 @@
 First assignment for PH510. 
 
+Labels for files:
+
 Original code provided - ‘badcode.py’
 
 Parallelised code developed - ‘goodcode.py’
