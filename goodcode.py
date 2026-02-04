@@ -30,6 +30,3 @@ I_FINAL = comm.reduce(I_LOCAL, op=MPI.SUM, root=0)
 
 if rank == 0:
     print(f"Good Code Integral {I_FINAL:.10f}")
-
-    else:
-      comm.send(integrand(x) * delta, dest=0)
